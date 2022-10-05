@@ -26,4 +26,5 @@ git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git pac
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 #openclash
-git clone https://github.com/vernesong/OpenClash.git package/OpenClash
+#git clone https://github.com/vernesong/OpenClash.git package/OpenClash
+echo 'src-git passwall https://github.com/vernesong/OpenClash' >>feeds.conf.default
