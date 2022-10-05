@@ -15,9 +15,10 @@
 
 ##############################################################################################
 
-# 主题
-git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-argonne
-git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/luci-theme-infinityfreedom
+# Add a feed source
+
+sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 
 ##############################################################################################
 
